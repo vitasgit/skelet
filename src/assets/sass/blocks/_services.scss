@@ -1,3 +1,11 @@
 .services {
 	
 }
+
+.services-list {
+	&__icon {
+		width: 64px;
+		height: 64px;
+		fill: black;
+	}
+}
