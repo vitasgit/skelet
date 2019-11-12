@@ -8,35 +8,37 @@
 {{> sprite }}
 
 <div class="page">
-	<div class="container">
-		{{> header }}
+	<section class="section-header">
+		<div class="container">
+			{{> header }}
+		
+			{{> intro }}
+		</div>
+	</section>
 
-		{{> intro }}
-	</div>
-
-	<div class="wrapper-services">
+	<section class="section-services">
 		<div class="container">
 			{{> services }}
 		</div>
-	</div>
+	</section>
 
-	<div class="wrapper-portfolio">
+	<section class="section-portfolio">
 		<div class="container">
 			{{> portfolio }}
 		</div>
-	</div>
+	</section>
 
-	<div class="wrapper-team">
+	<section class="section-team">
 		<div class="container">
 			{{> team }}
 		</div>
-	</div>
+	</section>
 
-	<div class="wrapper-footer">
+	<section class="page-footer">
 		<div class="container">
 			{{> footer }}
 		</div>
-	</div>
+	</section>
 </div>
 
 <script src="assets/js/app.min.js"></script>
